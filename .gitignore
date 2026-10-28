@@ -1,0 +1,40 @@
+# 本机工作区与编辑器配置
+/liwork.project.js
+/liwork.project.local.js
+/.liwork/
+/.codex/
+/.claude/
+/.vscode/
+/.idea/
+/.obsidian/
+
+# 本地环境配置；仅允许不含真实凭据的示例文件
+.env
+.env.*
+!.env.example
+!.env.template
+
+# 候选人原始资料与面试产出保留在本机
+/inputs/
+/resumes/
+/private/
+/outputs/*
+!/outputs/README.md
+
+# 临时文件与运行缓存
+/tmp/
+/temp/
+/.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+Desktop.ini
